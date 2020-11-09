@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,15 @@
 		0A6FDE1B246A984B00211767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6FDE19246A984B00211767 /* Main.storyboard */; };
 		0A6FDE1D246A984C00211767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6FDE1C246A984C00211767 /* Assets.xcassets */; };
 		0A6FDE20246A984C00211767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6FDE1E246A984C00211767 /* LaunchScreen.storyboard */; };
+		0A6FDE28246A992600211767 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FDE27246A992600211767 /* SignUpViewController.swift */; };
+		0A6FDE2A246A9B1A00211767 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A6FDE29246A9B1A00211767 /* GoogleService-Info.plist */; };
+		0A902AC42473D14300151782 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A902AC32473D14300151782 /* Validation.swift */; };
+		0A902AC62473E8ED00151782 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A902AC52473E8ED00151782 /* LogInViewController.swift */; };
+		0A902AC824754FBF00151782 /* Screenshot 2020-05-20 at 12.43.42.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A902AC724754FBF00151782 /* Screenshot 2020-05-20 at 12.43.42.png */; };
+		0A902ACA247551FD00151782 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A902AC9247551FD00151782 /* RootViewController.swift */; };
+		0A902ACC24756C0700151782 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A902ACB24756C0700151782 /* HomeViewController.swift */; };
+		0A902ACE24758A2B00151782 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A902ACD24758A2B00151782 /* ResetPasswordViewController.swift */; };
+		D815539F032F5FE1582F9980 /* Pods_PPWAuthenticationKonstantinGeorgiev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAC5E671E3E78065CB06032 /* Pods_PPWAuthenticationKonstantinGeorgiev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,17 @@
 		0A6FDE1C246A984C00211767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A6FDE1F246A984C00211767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A6FDE21246A984C00211767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6FDE27246A992600211767 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0A6FDE29246A9B1A00211767 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0A902AC32473D14300151782 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		0A902AC52473E8ED00151782 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0A902AC724754FBF00151782 /* Screenshot 2020-05-20 at 12.43.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot 2020-05-20 at 12.43.42.png"; path = "../../../Desktop/Screenshot 2020-05-20 at 12.43.42.png"; sourceTree = "<group>"; };
+		0A902AC9247551FD00151782 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		0A902ACB24756C0700151782 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A902ACD24758A2B00151782 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		9A32FAD424D0FD4A14B81E4A /* Pods-PPWAuthenticationKonstantinGeorgiev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPWAuthenticationKonstantinGeorgiev.debug.xcconfig"; path = "Target Support Files/Pods-PPWAuthenticationKonstantinGeorgiev/Pods-PPWAuthenticationKonstantinGeorgiev.debug.xcconfig"; sourceTree = "<group>"; };
+		F0CDDA14A742862365631526 /* Pods-PPWAuthenticationKonstantinGeorgiev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPWAuthenticationKonstantinGeorgiev.release.xcconfig"; path = "Target Support Files/Pods-PPWAuthenticationKonstantinGeorgiev/Pods-PPWAuthenticationKonstantinGeorgiev.release.xcconfig"; sourceTree = "<group>"; };
+		FEAC5E671E3E78065CB06032 /* Pods_PPWAuthenticationKonstantinGeorgiev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPWAuthenticationKonstantinGeorgiev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D815539F032F5FE1582F9980 /* Pods_PPWAuthenticationKonstantinGeorgiev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				0A6FDE12246A984B00211767 /* PPWAuthenticationKonstantinGeorgiev */,
 				0A6FDE11246A984B00211767 /* Products */,
+				494E584E602EE2EB27E9C411 /* Pods */,
+				95E7916CF804B9081AD5C298 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +83,36 @@
 				0A6FDE15246A984B00211767 /* SceneDelegate.swift */,
 				0A6FDE17246A984B00211767 /* ViewController.swift */,
 				0A6FDE19246A984B00211767 /* Main.storyboard */,
+				0A902ACD24758A2B00151782 /* ResetPasswordViewController.swift */,
+				0A902ACB24756C0700151782 /* HomeViewController.swift */,
+				0A902AC9247551FD00151782 /* RootViewController.swift */,
+				0A902AC52473E8ED00151782 /* LogInViewController.swift */,
+				0A6FDE27246A992600211767 /* SignUpViewController.swift */,
+				0A902AC32473D14300151782 /* Validation.swift */,
 				0A6FDE1C246A984C00211767 /* Assets.xcassets */,
+				0A902AC724754FBF00151782 /* Screenshot 2020-05-20 at 12.43.42.png */,
+				0A6FDE29246A9B1A00211767 /* GoogleService-Info.plist */,
 				0A6FDE1E246A984C00211767 /* LaunchScreen.storyboard */,
 				0A6FDE21246A984C00211767 /* Info.plist */,
 			);
 			path = PPWAuthenticationKonstantinGeorgiev;
+			sourceTree = "<group>";
+		};
+		494E584E602EE2EB27E9C411 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A32FAD424D0FD4A14B81E4A /* Pods-PPWAuthenticationKonstantinGeorgiev.debug.xcconfig */,
+				F0CDDA14A742862365631526 /* Pods-PPWAuthenticationKonstantinGeorgiev.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		95E7916CF804B9081AD5C298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEAC5E671E3E78065CB06032 /* Pods_PPWAuthenticationKonstantinGeorgiev.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A6FDE24246A984C00211767 /* Build configuration list for PBXNativeTarget "PPWAuthenticationKonstantinGeorgiev" */;
 			buildPhases = (
+				D355308E9BB1DE2A3523763A /* [CP] Check Pods Manifest.lock */,
 				0A6FDE0C246A984B00211767 /* Sources */,
 				0A6FDE0D246A984B00211767 /* Frameworks */,
 				0A6FDE0E246A984B00211767 /* Resources */,
+				E52A29531F96E8F692567699 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +175,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A902AC824754FBF00151782 /* Screenshot 2020-05-20 at 12.43.42.png in Resources */,
 				0A6FDE20246A984C00211767 /* LaunchScreen.storyboard in Resources */,
+				0A6FDE2A246A9B1A00211767 /* GoogleService-Info.plist in Resources */,
 				0A6FDE1D246A984C00211767 /* Assets.xcassets in Resources */,
 				0A6FDE1B246A984B00211767 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +185,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D355308E9BB1DE2A3523763A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPWAuthenticationKonstantinGeorgiev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52A29531F96E8F692567699 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPWAuthenticationKonstantinGeorgiev/Pods-PPWAuthenticationKonstantinGeorgiev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPWAuthenticationKonstantinGeorgiev/Pods-PPWAuthenticationKonstantinGeorgiev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PPWAuthenticationKonstantinGeorgiev/Pods-PPWAuthenticationKonstantinGeorgiev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A6FDE0C246A984B00211767 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A902ACE24758A2B00151782 /* ResetPasswordViewController.swift in Sources */,
 				0A6FDE18246A984B00211767 /* ViewController.swift in Sources */,
 				0A6FDE14246A984B00211767 /* AppDelegate.swift in Sources */,
+				0A902AC62473E8ED00151782 /* LogInViewController.swift in Sources */,
+				0A902ACC24756C0700151782 /* HomeViewController.swift in Sources */,
+				0A902ACA247551FD00151782 /* RootViewController.swift in Sources */,
+				0A6FDE28246A992600211767 /* SignUpViewController.swift in Sources */,
+				0A902AC42473D14300151782 /* Validation.swift in Sources */,
 				0A6FDE16246A984B00211767 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +382,7 @@
 		};
 		0A6FDE25246A984C00211767 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A32FAD424D0FD4A14B81E4A /* Pods-PPWAuthenticationKonstantinGeorgiev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +400,7 @@
 		};
 		0A6FDE26246A984C00211767 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CDDA14A742862365631526 /* Pods-PPWAuthenticationKonstantinGeorgiev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
